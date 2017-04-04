@@ -23,3 +23,9 @@ function escribirComentario(){
   document.getElementById("miFormulario").appendChild(seccion);
 
 }
+
+function cuentaCaracteres(){
+var numeroDeCaracteres = document.getElementById("miTwitter").value.length;
+var span = document.getElementById("contadorCaracteres");
+span.innerHTML = numeroDeCaracteres;
+}
